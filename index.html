@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leonore Kingdom — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <img src="images/logo.png" alt="logo" class="logo-img large-logo">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow" data-reveal>Home for Talented People · Passion for Excellence</div>
+          <h1 data-reveal>For people who drives to — <span style="color:var(--accent)" id="type-anim"></span></h1>
+          <p class="lead" data-reveal>I design and ship production-ready web apps, machine-learning experiments, and delightful developer tools. I focus on performance, accessibility, and delightful UX.</p>
+          <div class="cta-row" data-reveal>
+            <button class="btn" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">See Our Work</button>
+            <button class="btn ghost" onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'})">Let's Talk</button>
+          </div>
+
+          <div style="margin-top:22px;display:flex;gap:14px;align-items:center" data-reveal>
+            <div class="tag">Open to freelance</div>
+            <div class="tag">Available for hire</div>
+          </div>
+        </div>
+
+        <aside class="hero-card" data-reveal>
+          <div class="profile">
+            <div class="avatar"><img src="images/avatar.png" alt="avatar"></div>
+            <div class="meta">
+              <div style="font-weight:700">Hengki Pranoto a.k.a Leonore</div>
+              <small class="muted">Founder @Leonore Kingdom</small>
+              <div style="margin-top:8px;color:var(--muted);font-size:13px">I enjoy my life and freedom,a lifetime learner, creative mind, and compassionate partner.</div>
+            </div>
+          </div>
+          <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;justify-content: center;">
+            <div class="skill-pill">Content Creator</div>
+            <div class="skill-pill">Developer</div>
+            <div class="skill-pill">Musician</div>
+            <div class="skill-pill">Writer</div>
+            <div class="skill-pill">Designer</div>
+            <div class="skill-pill">Business</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="divider"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="#07070a" points="0,100 100,0 100,100"/></svg></div>
+
+    <section id="about" class="about-hero">
+  <div class="about-grid">
+    <div class="about-text" data-reveal>
+      <h2>About Us</h2>
+      <p class="lead">
+        Leonore Kingdom is a creative powerhouse where innovation meets passion.
+        We deliver cutting-edge digital solutions, captivating content, and bold designs that help brands and individuals shine in the modern era.
+      </p>
+      <ul class="about-highlights">
+        <li>🚀 Innovative Web & App Solutions</li>
+        <li>🎨 Human-first Design & Branding</li>
+        <li>🤖 AI & Automation Expertise</li>
+        <li>🌍 Global Collaboration</li>
+      </ul>
+      
+    </div>
+    <div class="about-photo" data-reveal>
+      <img src="images/about.png" alt="Leonore Kingdom Team">
+    </div>
+  </div>
+</section>
+
+
+    <div class="divider"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="#07070a" points="0,0 100,0 0,100"/></svg></div>
+
+    <section id="projects" class="projects">
+      <h2 class="center" data-reveal>Selected Projects</h2>
+      <p class="center muted" data-reveal>Some recent work — focused on performance, scale, and delightful UX.</p>
+
+      <div class="grid" style="margin-top:18px">
+        <article class="card" data-reveal>
+          <div class="thumb" style="background-image:url('https://source.unsplash.com/600x400/?ai,chatbot')"></div>
+          <div class="body">
+            <div class="tag">AI · E‑commerce</div>
+            <h3>AI Chat Assistant</h3>
+            <p class="muted">Realtime assistant that increases conversions and reduces support load.</p>
+          </div>
+          <div class="overlay"></div>
+          <div class="actions">
+            <button class="icon-btn" title="Demo"><i class="fas fa-external-link-alt"></i></button>
+            <button class="icon-btn" title="Code"><i class="fab fa-github"></i></button>
+          </div>
+        </article>
+
+        <article class="card" data-reveal>
+          <div class="thumb" style="background-image:url('https://source.unsplash.com/600x400/?dashboard,data')"></div>
+          <div class="body">
+            <div class="tag">Analytics</div>
+            <h3>Realtime Dashboard</h3>
+            <p class="muted">High‑throughput analytics with beautiful visualizations.</p>
+          </div>
+          <div class="overlay"></div>
+          <div class="actions">
+            <button class="icon-btn" title="Demo"><i class="fas fa-external-link-alt"></i></button>
+            <button class="icon-btn" title="Code"><i class="fab fa-github"></i></button>
+          </div>
+        </article>
+
+        <article class="card" data-reveal>
+          <div class="thumb" style="background-image:url('https://source.unsplash.com/600x400/?multiplayer,game')"></div>
+          <div class="body">
+            <div class="tag">Game</div>
+            <h3>Multiplayer Web Game</h3>
+            <p class="muted">Real-time websockets, matchmaking, and cross-platform play.</p>
+          </div>
+          <div class="overlay"></div>
+          <div class="actions">
+            <button class="icon-btn" title="Demo"><i class="fas fa-external-link-alt"></i></button>
+            <button class="icon-btn" title="Code"><i class="fab fa-github"></i></button>
+          </div>
+        </article>
+
+        <article class="card" data-reveal>
+          <div class="thumb" style="background-image:url('https://source.unsplash.com/600x400/?mobile,app')"></div>
+          <div class="body">
+            <div class="tag">Mobile</div>
+            <h3>Productivity App</h3>
+            <p class="muted">A tiny app with big user retention and thoughtful UX.</p>
+          </div>
+          <div class="overlay"></div>
+          <div class="actions">
+            <button class="icon-btn" title="Demo"><i class="fas fa-external-link-alt"></i></button>
+            <button class="icon-btn" title="Code"><i class="fab fa-github"></i></button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="divider"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="#07070a" points="0,100 100,0 100,100"/></svg></div>
+
+    <section id="skills" style="padding-top:36px">
+      <h2 data-reveal>Skills & Tools</h2>
+      <p class="muted" data-reveal>Every tool here is battle-tested in production.</p>
+
+      <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap" data-reveal>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">TypeScript</div>
+        <div class="skill-pill">React</div>
+        <div class="skill-pill">Node.js</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">Kubernetes</div>
+        <div class="skill-pill">Postgres</div>
+        <div class="skill-pill">Redis</div>
+      </div>
+    </section>
+
+    <div class="divider"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="#07070a" points="0,0 100,0 0,100"/></svg></div>
+
+    <section id="contacts" style="padding-bottom:80px">
+      <h2 data-reveal>Contact</h2>
+      <p class="muted" data-reveal>Want to work together? Send a quick note — I usually reply within 48 hours.</p>
+
+      <div class="contact-wrap" style="margin-top:18px">
+        <form id="contactForm" data-reveal>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@domain.com">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell me about your project"></textarea>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center;justify-content:space-between">
+            <div class="note muted">Or email me at <a href="mailto:contact@leonorekingdom.com">contact@leonorekingdom.com</a></div>
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+
+        <aside style="display:flex;flex-direction:column;gap:12px">
+          <div class="hero-card" style="padding:14px">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <div style="font-weight:700">Let's Connect</div>
+                <small class="muted">Follow me on socials</small>
+              </div>
+            </div>
+
+            <div style="margin-top:12px;display:flex;flex-direction:column;gap:8px">
+              <a class="socials" href="#" target="_blank"><i class="fab fa-linkedin"></i>&nbsp; LinkedIn</a>
+              <a class="socials" href="#" target="_blank"><i class="fab fa-tiktok"></i>&nbsp; TikTok</a>
+              <a class="socials" href="#" target="_blank"><i class="fab fa-youtube"></i>&nbsp; YouTube</a>
+              <a class="socials" href="#" target="_blank"><i class="fab fa-github"></i>&nbsp; GitHub</a>
+              <a class="socials" href="#" target="_blank"><i class="fab fa-instagram"></i>&nbsp; Instagram</a>
+              <a class="socials" href="#" target="_blank"><i class="fab fa-discord"></i>&nbsp; Discord</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <footer>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap">
+          <div style="display:flex;align-items:center;gap:12px">
+            <img src="Logo Full.png" alt="logo" style="height:36px">
+            <div class="muted">© 2025 Leonore Kingdom</div>
+          </div>
+
+          <div style="display:flex;gap:12px;align-items:center">
+            <a class="socials" href="#" target="_blank"><i class="fab fa-github"></i>&nbsp; GitHub</a>
+            <a class="socials" href="#" target="_blank"><i class="fab fa-linkedin"></i>&nbsp; LinkedIn</a>
+            <a class="socials" href="#" target="_blank"><i class="fab fa-instagram"></i>&nbsp; Instagram</a>
+            <a class="socials" href="#" target="_blank"><i class="fab fa-youtube"></i>&nbsp; YouTube</a>
+            <a class="socials" href="#" target="_blank"><i class="fab fa-tiktok"></i>&nbsp; TikTok</a>
+            <a class="socials" href="#" target="_blank"><i class="fab fa-discord"></i>&nbsp; Discord</a>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+  <div class="toast" id="toast">Message sent — thanks!</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
